@@ -1,0 +1,167 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <style>
+            *{
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+            }
+            header {
+                display: flex;    
+                flex-flow: row;
+                justify-content: space-between;
+            }
+            header a {
+                font-size: 24px;
+                font-family: 'Raleway', sans-serif;
+                text-decoration: none;
+                color: black;
+            }
+
+            header a#left {
+                padding: 38px 16px; 
+            }
+            header a#right {
+                padding: 38px 26px; 
+            }
+            #arts {
+                display: flex;
+                flex-flow: row;
+            }
+            #leftArt {
+                display: flex;
+                flex-flow: column;
+            }
+            #rightArt {
+                display: flex;
+                flex-flow: column;
+            }
+
+            footer h2 {
+                font-family: 'Raleway', sans-serif;
+                font-size:30px;
+                color: black;
+                margin: 0px auto;
+                width: 0%;
+                padding-right: 75px;
+                padding-top: 60px;
+            }
+            footer {
+                background-color: #f1f1f1;
+                padding-bottom: 85px;
+            }
+            footer img {
+                display: block;
+                margin: 20px auto;
+                padding: 32px 0px;
+            }
+
+            footer form {
+                margin: auto;
+                width: 60%;
+            }
+            footer p#p1 {
+                font-family: 'Raleway', sans-serif;
+                font-size: 17px;
+                margin: 15px 0px;
+                text-align: center;
+                line-height: 22px;
+                color: black;
+            }
+            footer p#p2 {
+                color: #e91e63;
+                font-family: 'Raleway', sans-serif;
+                font-size: 17.5px;
+                margin: 18px 0px;
+                text-align: center;
+            }
+            footer label {
+                text-align: center;
+                color: black;
+                font-family: 'Raleway', sans-serif;
+                font-size: 17px;
+                display: block;
+            }
+            footer input {
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+                margin-bottom: 15px;
+                display: block;
+                width: 800px;
+                height: 44px;
+                border: 1px solid silver;
+            }
+            footer button {
+                background-color: #616161;
+                color: white;
+                padding: 8px 16px;
+                font-size: 15px;
+                width: 800px;
+                height: 44px;
+                margin: 15px auto;
+                font-family: 'Raleway', sans-serif;
+                display: block;
+                border: 1px solid gray;
+            }
+            footer button:hover{
+                background-color: silver;
+                color: black; 
+                border: 1px solid silver;
+                cursor: pointer;
+            }
+            footer p a {
+                font-size: 17px;
+                font-family: 'Raleway', sans-serif;
+                color: black;
+                text-align: center;
+            }
+            footer p  {
+                font-size: 17px;
+                font-family: 'Raleway', sans-serif;
+                color: black;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="headerDiv">
+            <header>
+                <a id="left" href="#">MY ART</a>
+                <a id="right" href="#about">About</a>
+            </header>
+
+            <div id="arts">
+                <div id="leftArt">
+                    <img src="streetart.jpg" style="width:100%">
+                    <img src="streetart2.jpg" style="width:100%">
+                    <img src="streetart5.jpg" style="width:100%">
+                </div>
+                <div id="rightArt">
+                    <img src="streetart3.jpg" style="width:100%">
+                    <img src="streetart4.jpg" style="width:100%">
+                </div>
+            </div>
+        </div>
+        
+        <footer id="about">
+            <h2>About</h2>
+            <img src="boy.jpg" width="340" height="464">
+            <form>
+                <p id="p1">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                <p id="p2">Do not hesitate to contact me!</p>
+                <label><b>Name</b></label>
+                <input type="text">
+                <label><b>Email</b></label>
+                <input type="text">
+                <label><b>Message</b></label>
+                <input type="text"> 
+                <button>Send</button>
+
+            </form>
+            </br>
+            <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+        </footer>
+    </body>
+</html>
